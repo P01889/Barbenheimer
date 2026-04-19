@@ -25,4 +25,3 @@ We welcome any feedback, suggestions, or questions you may have about Barbenheim
 
 Thank you for your interest in Barbenheimer. We hope you enjoy exploring the fascinating intersection of Barbie and Oppenheimer on our blogging platform.
 
-# Made with ❤️ by Tushnika and Dushyant.
