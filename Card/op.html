@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oppenheimer - A Movie Review</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Chango&family=Preahvihear&family=Rubik+Burned&family=Truculenta:opsz,wght@12..72,100..900&display=swap')
+;
+    @import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Gabriela&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap')
+;
+@media only screen and (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .section,
+            .center-section {
+                margin: 10px 0;
+            }
+
+            .section.barbie img,
+            .section.oppenheimer img {
+                max-width: 80%;
+                order: 1; 
+            }
+
+            .center-section {
+                order: 2; 
+            }
+        }
+
+        @media only screen and (max-width: 480px) {
+            .section.barbie img,
+            .section.oppenheimer img {
+                max-width: 100%;
+            }
+
+            .highlight {
+                font-size: 16px;
+            }
+
+            h2 {
+                font-size: 22px;
+            }
+
+            .section_subheader {
+                font-size: 26px;
+            }
+
+            .center-section {
+                padding: 10px;
+            }
+        }
+
+body {
+    font-family: "Gabriela", serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+        margin: 0;
+        padding: 0;
+        background: rgb(236,203,115);
+        background: linear-gradient(90deg, rgb(233, 225, 203) 0%, rgb(209, 176, 101) 50%, rgb(205, 151, 65) 100%);
+        cursor: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 36"%3E%3Ctext x="0" y="20" font-size="24" fill="%23000000"%3E💣%3C/text%3E%3C/svg%3E'), auto;
+        }
+
+    .container {
+        max-width: 1200px;
+        margin: 20px auto;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .section {
+        flex: 1;
+        padding: 20px;
+        background-color:#4e4e4e;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin: 0 10px;
+        text-align: center;
+        border-radius: 10px;
+        transition: transform 0.3s ease;
+    }
+
+    .section:hover {
+        transform: translateY(-5px);
+    }
+
+    .section img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        cursor: pointer;
+        margin-top: 6px;
+    }
+
+    .section.barbie:hover img {
+        cursor:url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 36"%3E%3Ctext x="0" y="20" font-size="24" fill="%23000000"%3E💣%3C/text%3E%3C/svg%3E'), auto;
+    }
+
+    .center-section {
+        flex: 2;
+        padding: 20px;
+        background-color: #4e4e4e;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin: 0 10px;
+        text-align: justify;
+        color: white;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+
+    .section_subheader {
+        font-family: "Rubik Burned", system-ui;
+        margin-bottom: 30px;
+        text-align: center;
+        color:black; 
+    }
+
+    h2 {
+        margin-bottom: 20px;
+        color: white; 
+    }
+
+    .highlight {
+        color: #dbba42; 
+        font-weight: bold;
+    }
+
+    </style>
+</head>
+<body>
+    <h1 class="section_subheader">Oppenheimer - A Movie Review</h1>
+    <div class="container">
+            <div class="center-section">
+            <h2>Why <span style="color: #f5db8f;">Oppenheimer</span> is a Great Movie</h2>
+            <p>Oppenheimer is not merely a biopic; it's a profound exploration of intellect, morality, and the weight of <span style="color: #f5db8f;">scientific</span> discovery, captivating audiences with its rich narrative, compelling performances, and thought-provoking themes, leaving a lasting impression on the complexities of human achievement. 
+                <p>Through its meticulous attention to historical detail and masterful storytelling, Oppenheimer immerses viewers in the turbulent era of World War II and the race to harness the <span style="color: #f5db8f;">power of the atom</span>, prompting reflection on the ethical implications of scientific progress and the enduring impact of one man's choices on the course of history. With its cinematic brilliance and intellectual depth, Oppenheimer transcends the confines of traditional biographical films, inviting audiences to grapple with the profound questions it raises about the nature of knowledge, responsibility, and the pursuit of truth in a world fraught with moral ambiguity and existential uncertainty.</p>
+            <p>Oppenheimer isn't just a regular biography; it's a deep dive into science, ethics, and the weight of choices, grabbing your attention with its story, acting, and big ideas, making you think about the impact of our actions on history. It shows World War II's tense times and how one person's decisions could change everything, making us feel for Oppenheimer as he wrestles with right and wrong. The movie's images and music add to its emotional punch, transporting us to a time full of tough decisions. Oppenheimer isn't just about facts; it's about what it means to be human and the tough choices we all face, showing us that knowledge comes with responsibility and consequences.</p>
+        </div>
+        <div class="section barbie">
+            <h2>Oppenheimer</h2>
+            <img src="../Images/op.jpg" alt="oppenheimer1 Image">
+            <img src="../Images/oppenheimer.jpg" alt="oppenheimer2 image">
+        </div>
+    </div>  
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+</html>
