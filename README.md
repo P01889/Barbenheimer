@@ -1,4 +1,4 @@
-# Barbenheimer(BLOG-A-thon)
+# Barbenheimer
 Welcome to Barbenheimer, a unique blogging platform that explores the intersection of two iconic figures - Barbie and Oppenheimer - and their significance in the modern world. This README will guide you through the features, technologies used, and the concept behind Barbenheimer.
 
 # About Barbenheimer:
